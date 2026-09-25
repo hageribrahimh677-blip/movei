@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "94596106795",
+    "firebase_url": "https://movie-98bcd-default-rtdb.firebaseio.com",
+    "project_id": "movie-98bcd",
+    "storage_bucket": "movie-98bcd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94596106795:android:2a29b0f214eb2da6a4786e",
+        "android_client_info": {
+          "package_name": "com.example.movei"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94596106795-9cs34p9878ao2hi970qaqf350h7rvr52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4xpq9zH60j0Q0i6qg9ebCagXYtZWpfCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94596106795-9cs34p9878ao2hi970qaqf350h7rvr52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,63 @@
+name: movie
+description: "Movie App - Flutter project"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI / Icons
+  cupertino_icons: ^1.0.6
+
+  # Networking (استدعاء الـ API)
+  http: ^1.2.0
+  # أو بدل http لو عايز حاجة أقوى فيها Interceptors:
+  # dio: ^5.4.0
+
+  # تحميل صور الأفلام (Posters) من النت بكفاءة + Caching
+  cached_network_image: ^3.3.1
+
+  # فتح لينكات خارجية (زي تريلرات يوتيوب)
+  url_launcher: ^6.3.0
+
+  # Firebase (Auth + Database)
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.3
+
+  # State Management (اختار واحد بس حسب اللي هتشتغل بيه)
+  provider: ^6.1.1
+  # flutter_bloc: ^8.1.4
+  # flutter_riverpod: ^2.5.1
+
+  # تخزين محلي بسيط (مثلاً: Token, هل أول مرة يفتح التطبيق)
+  shared_preferences: ^2.2.2
+
+  # Splash Screen (لو حبيت تستخدم الـ Native Splash بدل ما تعملها يدوي)
+  # flutter_native_splash: ^2.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/avatars/
+
+  # لو هتستخدم خط خاص (Font) لأي كلام زي اللوجو أو خط مختلف في التصميم
+  # fonts:
+  #   - family: Poppins
+  #     fonts:
+  #       - asset: assets/fonts/Poppins-Regular.ttf
+  #       - asset: assets/fonts/Poppins-Bold.ttf
+  #         weight: 700
